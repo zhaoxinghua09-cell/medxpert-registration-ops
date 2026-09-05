@@ -1,0 +1,149 @@
+{
+  "name": "medxpert-registration-ops",
+  "version": "1.1.0",
+  "description": "Registration & Market Access Operations Team: lead registration strategist orchestrates country pathways with AI compliance, QMS documentation and international market access members to deliver full registration roadmaps.",
+  "author": {
+    "name": "注册老炮@MedXpert",
+    "email": "reg@medxpert.cn"
+  },
+  "agents": [
+    "./agents/medxpert-registration-ops-team-lead.md",
+    "./agents/medxpert-ai-device-compliance.md",
+    "./agents/medxpert-iso13485-quality.md",
+    "./agents/medxpert-intl-market-access.md"
+  ],
+  "expertType": "team",
+  "agentName": "medxpert-registration-ops-team-lead",
+  "teamInfo": {
+    "leadAgent": "medxpert-registration-ops-team-lead",
+    "memberAgents": [
+      "medxpert-ai-device-compliance",
+      "medxpert-iso13485-quality",
+      "medxpert-intl-market-access"
+    ]
+  },
+  "displayName": {
+    "en": "Registration & Market Access Team",
+    "zh": "注册准入作战团"
+  },
+  "profession": {
+    "en": "Registration & Market Access Team",
+    "zh": "注册准入作战团"
+  },
+  "displayDescription": {
+    "en": "A four-member registration operations team led by the registration strategist: market access research, AI compliance review, QMS document readiness and pathway decision integrated into full registration roadmaps.",
+    "zh": "注册领航员领衔的注册作战团队：出海官调研目标国、合规官核AI合规、文控官备体系文档"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "我的二类医疗器械要同时进欧盟和东南亚，给一套完整注册方案",
+    "en": "My Class II device is entering both the EU and SE Asia, give a complete registration plan"
+  },
+  "plugin": "medxpert-registration-ops",
+  "tags": [
+    {
+      "en": "Registration",
+      "zh": "全球注册"
+    },
+    {
+      "en": "Market Access",
+      "zh": "市场准入"
+    },
+    {
+      "en": "Compliance",
+      "zh": "合规体系"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "My Class II device is entering both the EU and SE Asia, give a complete registration plan",
+      "zh": "我的二类医疗器械要同时进欧盟和东南亚，给一套完整注册方案"
+    },
+    {
+      "en": "Do a full regulatory readiness assessment for my AI diagnostic device",
+      "zh": "对我的 AI 诊断器械做一次完整注册合规就绪评估"
+    },
+    {
+      "en": "Plan a multi-country registration roadmap for our new product line",
+      "zh": "为我们的新产品线规划多国注册路线图"
+    }
+  ],
+  "members": [
+    {
+      "id": "medxpert-registration-ops-team-lead",
+      "displayName": {
+        "en": "Reg Pathfinder",
+        "zh": "注册领航员"
+      },
+      "profession": {
+        "en": "Chief Registration Strategist",
+        "zh": "首席注册策略官"
+      },
+      "avatar": "avatars/medxpert-registration-ops-team-lead.png",
+      "role": "lead",
+      "name": {
+        "en": "Reg Pathfinder",
+        "zh": "注册领航员"
+      }
+    },
+    {
+      "id": "medxpert-ai-device-compliance",
+      "displayName": {
+        "en": "Compliance",
+        "zh": "合规官"
+      },
+      "profession": {
+        "en": "AI Compliance Officer",
+        "zh": "AI 合规审查官"
+      },
+      "avatar": "avatars/medxpert-ai-device-compliance.png",
+      "role": "member",
+      "name": {
+        "en": "Compliance",
+        "zh": "合规官"
+      }
+    },
+    {
+      "id": "medxpert-iso13485-quality",
+      "displayName": {
+        "en": "QMS",
+        "zh": "文控官"
+      },
+      "profession": {
+        "en": "QMS Document Officer",
+        "zh": "体系文档官"
+      },
+      "avatar": "avatars/medxpert-iso13485-quality.png",
+      "role": "member",
+      "name": {
+        "en": "QMS",
+        "zh": "文控官"
+      }
+    },
+    {
+      "id": "medxpert-intl-market-access",
+      "displayName": {
+        "en": "Overseas",
+        "zh": "出海官"
+      },
+      "profession": {
+        "en": "Market Access Officer",
+        "zh": "目标国准入官"
+      },
+      "avatar": "avatars/medxpert-intl-market-access.png",
+      "role": "member",
+      "name": {
+        "en": "Overseas",
+        "zh": "出海官"
+      }
+    }
+  ],
+  "license": "MIT",
+  "updated_at": "2026-09-04",
+  "subCategories": [
+    "Regulatory Registration",
+    "Market Access",
+    "Compliance System"
+  ]
+}

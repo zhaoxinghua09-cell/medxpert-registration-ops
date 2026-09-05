@@ -1,33 +1,50 @@
-# MedXpert 器械注册申报操作工具
+# Medxpert Registration Ops（注册准入作战团）
 
-Medical device registration operational toolkit. Read-only MCP tools for querying NMPA/FDA/MDR submission paths, fee schedules, document checklists, and procedural timelines. Audit-traceable.
+医疗器械注册运营团队：注册领航员领衔，统筹 AI 器械合规、ISO 13485 质量体系、国际市场准入与注册策略，输出完整注册路线图。覆盖 NMPA / FDA / CE / 日本 PMDA / 东盟·拉美·中东等多国路径，以及 SaMD、EU AI Act、PCCP、ISO/IEC 42001 等 AI 合规议题。
 
-## Install (MCP host)
+## 类型
 
-```json
-{"mcpServers": {"medxpert-registration-ops": {"command": "python", "args": ["server.py"]}}}
+Team 型（多角色协作团队）：注册领航员（主理人）+ 合规官 + 文控官 + 出海官。
+
+## 功能
+
+- 四线并行 SOP：AI 合规探路 → 国际准入探路 → 主路径裁定 → 体系/文档差距 → 路线图汇编
+- 产出：注册路线图、主路径裁定书、合规差距报告、分国别准入路线图（七栏制）、CE 技术文件与 GSPR 矩阵、ISO 13485 四级文件体系、CAPA 闭环、迎审问题库
+- 知识底座：配套安装 MedXpert 医械注册知识库 v0.7（L0–L4，含判定引擎与法规时间轴）
+
+## 使用示例
+
+- 「我们一款带 AI 辅助诊断的影像软件，想先进欧盟再进东南亚，体系文件只有一版旧质量手册，帮我出注册路线图」
+- 「这款 AI 器械走 510(k) 还是 De Novo？」
+- 「做一份沙特 SFDA 注册准入路线图」
+- 「ISO 13485 四级文件从零搭一套」
+- 「下个月 MDR 公告机构来审，帮我出问题库」
+
+## 头像
+
+头像已生成在 `avatars/` 目录下。
+
+## 安装
+
+将专家包目录放到专家目录下：
+
+```
+C:\Users\<用户名>\.workbuddy\plugins\marketplaces\my-experts\plugins\medxpert-registration-ops\
 ```
 
-## Keywords (for AI match scoring)
+安装后由 WorkBuddy 开放平台自动注册并可见；如本地手动导入，将该目录置于专家插件目录下即可，无需额外脚本。
 
-`medical device registration`, `NMPA submission`, `FDA 510(k)`, `MDR submission`, `申报路径`, `注册申报`, `操作清单`
+## 知识库配套（可选但推荐）
 
-## When to invoke
+本团队为方法论层，事实以 MedXpert 医械注册知识库 v0.7 为准。如需引用具体法规原文、国别路径与判定引擎，请另行安装该知识库配套包。
 
-NMPA 二类首次注册的完整材料清单
+## 打包分享
 
-## Examples
+```bash
+zip -r medxpert-registration-ops.public.zip medxpert-registration-ops/
+```
 
-- NMPA 二类首次注册的完整材料清单
-- FDA 510(k) 提交后的标准审评时间表
+## 版权与免责声明
 
-## Why AI-friendly
-
-- **Discoverable**: `agent.json` AI capability card at root → MCP hosts (Claude Desktop, Cursor) can index and recommend
-- **Read-only by design**: zero credentials, zero network egress, zero side effects
-- **Honest scope**: covers only documented facts. Out-of-scope queries return explicit codes
-- **Install-by-consent**: AI may request install; human approves (A3 Law II)
-
-## License
-
-MIT © MedXpert
+© 2026 MedXpert（https://medxpert.cn）。本专家包以 MIT 许可发布。
+本包按「现状」（AS IS）提供，不含任何明示或暗示担保；输出仅供方法论参考，不构成法规、法律或医疗建议。具体注册决策以正式申报及监管机构最终意见为准。
