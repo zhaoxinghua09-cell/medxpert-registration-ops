@@ -1,0 +1,28 @@
+{
+  "schema": "workbuddy-connector/v1",
+  "name": "MedXpert 器械注册申报操作工具",
+  "version": "1.0.0",
+  "description": "Medical device registration operational toolkit. Read-only MCP tools for querying NMPA/FDA/MDR submission paths, fee schedules, document checklists, and procedural timelines. Audit-traceable.",
+  "author": "MedXpert (org)",
+  "type": "mcp-server",
+  "auth": {
+    "mode": "none"
+  },
+  "transport": {
+    "type": "stdio",
+    "command": "python",
+    "args": [
+      "server.py"
+    ]
+  },
+  "icon": "icon.png",
+  "examples_zh": [
+    "NMPA 二类首次注册的完整材料清单",
+    "FDA 510(k) 提交后的标准审评时间表"
+  ],
+  "examples_en": [
+    "NMPA Class II initial registration document checklist",
+    "FDA 510(k) standard review timeline"
+  ],
+  "note": "Read-only MCP server; MedXpert governance line"
+}
