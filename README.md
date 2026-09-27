@@ -1,4 +1,17 @@
 # Medxpert Registration Ops（注册准入作战团）
+## 许可说明 · License Notice
+
+- **权利状态**：本仓库以 **MIT 许可** 许可发布，可依该许可证条款自由使用、修改与再分发。
+- **引用建议**：引用时请标注仓库名与原文链接 `https://github.com/zhaoxinghua09-cell/medxpert-registration-ops`
+  与权利人「赵兴华 / Steven Zhao·China」。
+- **品牌状态限定**：MedXpert、SynomosAI、LGD 等为相关项目标识，
+  **均未申请实体注册、未申请商标注册**；出现仅作来源标识，
+  不构成对法人实体或商标权的任何主张。
+- **完整条款**：见仓库根目录 [LICENSE](LICENSE)。
+- **联系**：zhaoxinghua06@126.com ｜ ORCID 0009-0001-0512-1237
+
+---
+
 
 医疗器械注册运营团队：注册领航员领衔，统筹 AI 器械合规、ISO 13485 质量体系、国际市场准入与注册策略，输出完整注册路线图。覆盖 NMPA / FDA / CE / 日本 PMDA / 东盟·拉美·中东等多国路径，以及 SaMD、EU AI Act、PCCP、ISO/IEC 42001 等 AI 合规议题。
 
