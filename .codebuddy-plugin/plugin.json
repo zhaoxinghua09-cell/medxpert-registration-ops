@@ -3,8 +3,8 @@
   "version": "1.1.0",
   "description": "Registration & Market Access Operations Team: lead registration strategist orchestrates country pathways with AI compliance, QMS documentation and international market access members to deliver full registration roadmaps.",
   "author": {
-    "name": "注册老炮@MedXpert",
-    "email": "reg@medxpert.cn"
+    "name": "赵兴华 / Steven Zhao·China (ORCID 0009-0001-0512-1237)",
+    "email": "zhaoxinghua09@gmail.com"
   },
   "agents": [
     "./agents/medxpert-registration-ops-team-lead.md",
@@ -139,7 +139,7 @@
       }
     }
   ],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "updated_at": "2026-09-04",
   "subCategories": [
     "Regulatory Registration",
