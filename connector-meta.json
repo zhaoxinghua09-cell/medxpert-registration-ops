@@ -2,18 +2,16 @@
   "schema": "workbuddy-connector/v1",
   "name": "MedXpert 器械注册申报操作工具",
   "version": "1.0.0",
-  "description": "Medical device registration operational toolkit. Read-only MCP tools for querying NMPA/FDA/MDR submission paths, fee schedules, document checklists, and procedural timelines. Audit-traceable.",
+  "description": "Medical device registration operational toolkit. Read-only agent tools for querying NMPA/FDA/MDR submission paths, fee schedules, document checklists, and procedural timelines. Audit-traceable.",
   "author": "赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）",
-  "type": "mcp-server",
+  "license": "Apache-2.0",
+  "type": "agent",
   "auth": {
     "mode": "none"
   },
   "transport": {
-    "type": "stdio",
-    "command": "python",
-    "args": [
-      "server.py"
-    ]
+    "type": "host-loaded",
+    "note": "专家/Agent 包由宿主从 skills/agents/settings.json 加载；非 MCP stdio 子进程，仓内无 server 入口"
   },
   "icon": "icon.png",
   "examples_zh": [
@@ -24,5 +22,5 @@
     "NMPA Class II initial registration document checklist",
     "FDA 510(k) standard review timeline"
   ],
-  "note": "Read-only MCP server; MedXpert governance line"
+  "note": "Read-only agent/expert card; MedXpert governance line"
 }
