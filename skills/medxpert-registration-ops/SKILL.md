@@ -5,7 +5,7 @@ displayName: 医械注册运营团（AI器械·国际准入·ISO13485·质量）
 title: 医械注册运营团（AI器械·国际准入·ISO13485·质量）
 category: 医疗器械注册
 version: 1.1.0
-author: 注册老炮@MedXpert
+author: 赵兴华 / Steven Zhao·China (ORCID 0009-0001-0512-1237)
 agent_created: true
 description: This skill should be used when you need medical-device registration operations — AI-device compliance, international market access, ISO 13485 quality systems, and regulatory coordination. 当你要做医疗器械注册运营（AI 医疗器械合规、全球市场准入 market access、NMPA/FDA/CE 注册路径、ISO 13485 质量体系搭建、法规事务 regulatory affairs、注册策略与节奏统筹）时使用。常见叫法：医械注册、注册运营、国际准入、法规事务、质量体系。适用于 SaMD 软件医疗器械判定、EU AI Act 高风险义务核查、PCCP 预定变更控制计划、510(k)/De Novo/PMA 路径裁定、CE 技术文件与符合性声明、东南亚/中东/拉美多国注册路线图、四级文件体系与文控中心、内审与管理评审、FDA QMSR/EU MDR/NMPA GMP 迎审准备、CAPA 闭环、技术文档与临床评价结构、注册差距分析与提交包组装。
 description_en: Medical device registration operations skill for regulatory affairs teams. It coordinates four working lines — AI device compliance (SaMD, AI-DSF, TPLC, PCCP, GMLP, EU AI Act high-risk obligations, ISO/IEC 42001), international market access (NMPA, FDA 510(k)/De Novo/PMA, CE marking under EU MDR 2017/745, Southeast Asia, Middle East, LATAM, Africa), ISO 13485 quality system and document control (four-tier documents, internal audit, management review, QMSR/MDR/GMP audit readiness, CAPA), and registration coordination (pathway arbitration, gap analysis, submission roadmap). Use it to produce structured registration pathways, technical documentation checklists, quality system gap reports and market access roadmaps. All regulatory conclusions must be verified against current official sources before use.
