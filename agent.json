@@ -7,7 +7,7 @@
     "organization": "MedXpert",
     "url": "https://medxpert.cn"
   },
-  "author": "MedXpert (org) · operated by SynomosAI governance line",
+  "author": "赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）",
   "capabilities": [
     "medical device registration",
     "NMPA submission",
@@ -38,7 +38,7 @@
     ]
   },
   "homepage": "https://medxpert.cn",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "installByConsent": "AI may request install; human approves (A3 Law II)",
   "scope": "regulatory knowledge query — not legal/clinical advice"
 }
